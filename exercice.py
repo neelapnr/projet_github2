@@ -37,7 +37,7 @@ def modifier_statut_todo():
             print(f"Le statut du todo '{todo['name']}' a été changé en 'Fait'.")
         elif todo['status'] == "Fait":
             # Erreur volontaire : changer le statut en "à fair" au lieu de "à faire"
-            todo['status'] = "à fair"
+            todo['status'] = "à faire"
             print(f"Le statut du todo '{todo['name']}' a été changé en 'à fair'.")
         else:
             print(f"Le statut du todo '{todo['name']}' est déjà dans un état inconnu.")
